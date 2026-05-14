@@ -1,0 +1,12 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+onchange-src += index.jsx page/*.jsx
+
+page-src := index.jsx $(wildcard page/*.jsx)
+page-m4 := $(addprefix $(objtree)/m4/,$(page-src))
+
+$(page-m4): $(lib-helper) $(objtree)/images_asmap.m4
+
+$(objtree)/m4/page/credit.jsx: $(objtree)/fonts_asmap.m4 \
+			       $(objtree)/notice_map.m4 \
+			       $(objtree)/license_map.m4
