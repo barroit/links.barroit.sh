@@ -110,4 +110,3 @@ $(static)/.assetsignore:
 
 deploy: deploy-ready $(static)/.assetsignore
 	$(wrangler) deploy
-	$(wrangler) secret bulk .dev.vars
