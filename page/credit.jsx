@@ -92,9 +92,9 @@ export default function Credit()
 
 RETURN_JSX_BEGIN
 <section id='credit'
-         class='[--pastel-left:var(--pastel-green)]
+         class='[--pastel-left:var(--pastel-cyan)]
                 [--pastel-mid:var(--pastel-lavender)]
-                [--pastel-right:var(--pastel-cyan)]'>
+                [--pastel-right:var(--pastel-pink)]'>
   <Bar/>
   <div class='mt-10 mx-auto p-5 w-fit flex flex-col lg:flex-row
               items-center lg:items-start gap-y-10 gap-x-20 text-zinc-700'>
