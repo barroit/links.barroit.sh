@@ -39,8 +39,9 @@ function Banner()
 {
 
 RETURN_JSX_BEGIN
-<header>
-  <h1 class='px-1 uppercase tracking-widest text-6xl font-x16y32px_grid_gazer
+<header class='@container xl:w-133 2xl:w-158'>
+  <h1 class='px-1 uppercase tracking-widest
+             text-[10cqw] font-x16y32px_grid_gazer
              text-shadow-[[[-2px_0_]]MIKU_PINK,[[2px_0_]]MIKU_CYAN]'>
     /proc/39/net/
   </h1>
@@ -53,10 +54,10 @@ function Link({ href, content })
 	const mobile = useMobile()
 
 RETURN_JSX_BEGIN
-<LinkExtern class='pl-[8ch] text-indigo-700' { ...{ href } }>
+<LinkExtern class='block pl-[8ch] text-indigo-700' { ...{ href } }>
   <ExternMark>
   { mobile ? (
-    <span>{ content }</span>
+    <span class='break-all'>{ content }</span>
   ) : (
     <Flick>{ content }</Flick>
   ) }
