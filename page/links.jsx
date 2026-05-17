@@ -40,7 +40,7 @@ function Banner()
 
 RETURN_JSX_BEGIN
 <header class='@container xl:w-133 2xl:w-158'>
-  <h1 class='px-1 uppercase tracking-widest
+  <h1 class='px-1 uppercase tracking-widest leanding-none
              text-[10cqw] font-x16y32px_grid_gazer
              text-shadow-[[[-2px_0_]]MIKU_PINK,[[2px_0_]]MIKU_CYAN]'>
     /proc/39/net/
@@ -116,7 +116,7 @@ RETURN_JSX_BEGIN
                 [--pastel-mid:var(--pastel-lavender)]
                 [--pastel-right:var(--pastel-cyan)]'>
   <Banner/>
-  <div class='mt-15 space-y-15 *:space-y-7'>
+  <div class='mt-10 space-y-10 *:space-y-7'>
     <div>
       <Subsection>Profile</Subsection>
       <List list={ profiles }/>
